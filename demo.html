@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>demo</title>
+		<meta charset="utf-8" />
+		<link media="all" rel="stylesheet" type="text/css" href="styles/dropdown.css" />
+		<script type="text/javascript" src="jquery/jquery-2.1.3.js"></script>
+		<script type="text/javascript" src="simple-module-master/lib/module.js"></script>
+		<script type="text/javascript" src="lib/dropdown.js"></script>
+	</head>
+	<body>
+
+		<!--<div class="simple-dropdown" >
+	      <div class="dropdown-main">
+	        <span>4567</span>
+	        <div class="arrow"></div>
+	      </div>
+	      <div class="dropdown-content"><ul>
+	      	<li>4567</li>
+	      	<li>5678</li>
+	      </ul></div>
+	    </div>
+		-->
+	    <div style="width:300px;heigth:100px;border:2px solid #000;" class="dropdown">5678</div>
+		
+
+	</body>
+	<script type="text/javascript">
+
+		 var t=simple.dropdown({
+		 	el:$('.dropdown'),
+		 	defaults:"所有成员",
+		 	content:[
+		 		"所有成员",
+		 		"----",
+		 		"天涯没多远",
+		 		"连城究"
+		 	]
+		 });
+		</script>
+</html>
